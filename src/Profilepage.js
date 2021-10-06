@@ -5,7 +5,7 @@ import useFetch from './usefetch';
 const ProfilePage = () => {
     const authorName= JSON.parse(sessionStorage.getItem('user')).user_name
     const user_id= JSON.parse(sessionStorage.getItem('user')).id
-    const {data: blogs, isPending, error}=useFetch('http://localhost:3001/user/'+user_id);
+    const {data: blogs, isPending, error}=useFetch('https://geor-blog-backend.herokuapp.com/user/'+user_id);
     //const {data: userInfo,infoPending, infoerror}=useFetch('http://localhost:3001/userinfo/'+user_id);
     const usermail=JSON.parse(sessionStorage.getItem('user')).email
     const signDate=JSON.parse(sessionStorage.getItem('user')).sing_date

@@ -24,7 +24,7 @@ export default function Login () {
     const handleSubmit=(e)=>{
         e.preventDefault();
         const cred= {uname, pass}
-        fetch('http://localhost:3001/login', {
+        fetch('https://geor-blog-backend.herokuapp.com/login', {
             method: 'POST',
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify(cred),

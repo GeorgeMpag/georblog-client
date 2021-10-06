@@ -15,7 +15,7 @@ const Login = () => {
     
     if (pass===rpass){
         const user ={uname, email, pass};
-        fetch('http://localhost:3001/adduser', {
+        fetch('https://geor-blog-backend.herokuapp.com/adduser', {
         method: 'POST',
         headers: {"Content-Type":"application/json"},
         body: JSON.stringify(user),

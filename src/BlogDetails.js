@@ -13,7 +13,7 @@ const BlogDetails = () => {
 
     //console.log(blog)
     const deletePost =() => {
-        fetch('http://localhost:3001/blogs/'+id, {
+        fetch('https://geor-blog-backend.herokuapp.com//blogs/'+id, {
         method: 'DELETE'
         }).then(()=> {
             history.push('/');

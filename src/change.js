@@ -13,7 +13,7 @@ const Change = (props) => {
 
        
         //fetch('http://localhost:8000/blogs', {
-        fetch('http://localhost:3001/update', {
+        fetch('https://geor-blog-backend.herokuapp.com/update', {
             method: 'PUT',
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify(blog)
