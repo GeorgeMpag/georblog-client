@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #463be4;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #463be4;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #463be4;
+  margin-bottom: 8px;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color:#463be4;
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+ 
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #463be4;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background-color: #5e54e9;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button {
+  background-color: #5e54e9;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bd-buttons{
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* login page */
+
+.login-page{
+
+  max-width: 400px;
+  height: 800px;
+  margin: 0 auto;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+}
+
+.login-page h1{
+  color: #463be4;
+}
+ button{
+  background-color: #5e54e9;
+  color:#ddd;
+  border-radius: .5em;
+}
+
+
+.login-page form {
+  margin:150px auto 0 auto;
+  width:450px;
+}
+
+.login-page label {
+  text-align: left;
+  display: block;
+  margin: 10px 0 5px 0;
+}
+.login-page input {
+  width:400px;
+  display: block;
+  padding-left: 10px;
+  height: 20px;
+}
+
+.login-page button{
+margin-top: 15px ;
+float: right;
+}
+
+.login-page p{
+  text-align: center;
+  margin-top: 40px;
+}
+.login-page #error-message{
+  margin-top: 20px;
+  max-width: 400px;
+  height: 70px;
+  
+  padding: 30px auto 30px auto;
+  text-align: center;
+ 
+  
+}
+#error-message h3{
+  color: #e43644;
+  justify-content: center;
+ 
+}
+
+.login-page #link{
+  
+  color:blue;
+  text-decoration: none;
+  margin-top:15px
+}
+
+.bot{
+  margin-top:40px;
+  position: relative;
+}
+
+.bot button{
+  background: none;
+  border:none;
+  cursor: pointer;
+  font-size: large;
+  color: blue;
+  margin-left: 150px;
+}
+
+.bot #sign-visitor{
+  display:flex;
+  justify-content: center;
+}
+
+#visitor-message{
+
+  background-color: burlywood;
+  width: 7rem;
+  margin-left: 17rem; 
+  display: none;
+
+}
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+}
+
+.userPosts{
+  width: 80%;
+  margin-left:10% ;
+  /* border: solid;  */
+
+}
+
+.profileInfo {
+   position: absolute;
+  display:inlile-flex;
+  left:15%;
+  /* border: solid; */
+ 
+}
+.profileInfo p{
+  display: block;
+ 
+}
+
+.profileInfo button {
+  margin-top:3em;
+}
+/* #visitor-message:hover{
+  display: inline-block;
+} */
+
