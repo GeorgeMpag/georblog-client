@@ -1,6 +1,6 @@
 import Navbar from './navbar';
 import Home from './Home';
-import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
 
 import Create from './create';
 import BlogDetails from './BlogDetails';
