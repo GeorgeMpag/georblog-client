@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/georblog-client/static/css/main.20a5a31b.chunk.css",
-    "main.js": "/georblog-client/static/js/main.432cc8e1.chunk.js",
-    "main.js.map": "/georblog-client/static/js/main.432cc8e1.chunk.js.map",
+    "main.js": "/georblog-client/static/js/main.a83311ef.chunk.js",
+    "main.js.map": "/georblog-client/static/js/main.a83311ef.chunk.js.map",
     "runtime-main.js": "/georblog-client/static/js/runtime-main.f4627999.js",
     "runtime-main.js.map": "/georblog-client/static/js/runtime-main.f4627999.js.map",
-    "static/js/2.71dfb49a.chunk.js": "/georblog-client/static/js/2.71dfb49a.chunk.js",
-    "static/js/2.71dfb49a.chunk.js.map": "/georblog-client/static/js/2.71dfb49a.chunk.js.map",
+    "static/js/2.7f512e2a.chunk.js": "/georblog-client/static/js/2.7f512e2a.chunk.js",
+    "static/js/2.7f512e2a.chunk.js.map": "/georblog-client/static/js/2.7f512e2a.chunk.js.map",
     "index.html": "/georblog-client/index.html",
     "static/css/main.20a5a31b.chunk.css.map": "/georblog-client/static/css/main.20a5a31b.chunk.css.map",
-    "static/js/2.71dfb49a.chunk.js.LICENSE.txt": "/georblog-client/static/js/2.71dfb49a.chunk.js.LICENSE.txt"
+    "static/js/2.7f512e2a.chunk.js.LICENSE.txt": "/georblog-client/static/js/2.7f512e2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4627999.js",
-    "static/js/2.71dfb49a.chunk.js",
+    "static/js/2.7f512e2a.chunk.js",
     "static/css/main.20a5a31b.chunk.css",
-    "static/js/main.432cc8e1.chunk.js"
+    "static/js/main.a83311ef.chunk.js"
   ]
 }
